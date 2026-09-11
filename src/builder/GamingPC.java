@@ -1,11 +1,11 @@
 package builder;
 
 public class GamingPC {
-    private String cpu;
-    private String gpu;
-    private String ram;
-    private String storage;
-    private String powerSupply;
+    private final String cpu;
+    private final String gpu;
+    private final String ram;
+    private final String storage;
+    private final String powerSupply;
 
      GamingPC(String cpu, String gpu, String ram, String storage, String powerSupply) {
         this.cpu = cpu;
