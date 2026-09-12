@@ -1,11 +1,11 @@
 package builder;
 
 public class BudgetGamingPCBuilder implements GamingPCBuilder {
-    private String cpu;
-    private String gpu;
-    private String ram;
-    private String storage;
-    private String powerSupply;
+    private String cpu = "AMD Ryzen 5 5600";
+    private String gpu = "NVIDIA RTX 4060";
+    private String ram = "16GB";
+    private String storage = "1TB SSD";
+    private String powerSupply = "650W";
 
     @Override
     public GamingPCBuilder setCpu(String cpu) {
